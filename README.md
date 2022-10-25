@@ -1,3 +1,3 @@
-# PIANTALA 
-##   HAI ROTTO IL CAZZO 
-Oh, quando ce vo, ce vo
+# PIANTALA 🪴
+## 🌠 HAI ROTTO IL CAZZO 🌠
+Zero pazienza, solo Peroni e cappotti in rovere
