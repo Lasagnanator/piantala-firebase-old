@@ -24,12 +24,14 @@
 
 - sviluppare un frontend che abbia un minimo di senso
 
+![alt text](./1666978065049.jpeg)
+
 </br>
 
 ## 2 - RICONOSCERE UNA PIANTA TRAMITE UNA FOTO
 
 - qua no xe cazzi, usiamo la api di [plant.net](https://my.plantnet.org/doc) che da anche l'esempio di [script in python](https://github.com/plantnet/my.plantnet/blob/master/examples/post/run.py)
-- le immagini restano sul guest(più facile, basta fare la richiesta POST) o le salviamo da qualche parte per riproporle poi?  poi tocca gestire un db con i path delle risorse salvate da qualche parte in un altro server
+- le immagini restano sul guest (più facile, basta fare la richiesta POST) o le salviamo da qualche parte per riproporle poi?  poi tocca gestire un db con i path delle risorse salvate da qualche parte in un altro server
 
 </br>
 
@@ -43,15 +45,17 @@
 </br>
 
 ## 4 - ANALISI DATI
-</br>
+<br>
 
 - un po di python a fantasia
   - come integriamo i grafici nella pagina html?
   - gafici statici o dinamici? che libreira usiamo? 
   - se dianmici li buttiamo fuori in js (tramite altair o in altro modo?) 
+
 - posizionamento dei tag con osservazione sulla mappa   
   
   - [folium](https://python-visualization.github.io/folium/quickstart.html) per creare una mappa interattiva con possibilità di distribuire tag ecc 
-  - possibilià di filtraggio per specie, famiglia ecc.
+  - overlay su google maps con la sua api ([vedi tutorial](https://thedatafrog.com/en/articles/show-data-google-map-python/))
+  - possibilià di filtraggio per specie, famiglia ecc. comporta la srutturazione di una nuova query al db con i dati filtrati e un nuovo csv da analizzare ogni volta?
   
 
